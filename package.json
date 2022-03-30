@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "start:react": "cd ./scripts/atlas-render/ && yarn start",
+    "start:electron": "cd ./scripts/atlas-electron/ && yarn start",
+    "start": "concurrently --kill-others \"yarn start:react\" \"yarn start:electron\""
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "yarn": "^1.22.18"
+  }
+}

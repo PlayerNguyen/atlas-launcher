@@ -1,0 +1,12 @@
+{
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "electron": "^18.0.0"
+  }
+}
